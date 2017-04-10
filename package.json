@@ -1,7 +1,7 @@
 {
   "name": "brick-breaker",
   "version": "1.1.1",
-  "description": "Remake of the classic game Breakout",
+  "description": "A remake of the classic game Breakout",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

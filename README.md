@@ -1,2 +1,2 @@
 # Brick Breaker
-Remake of the classic game Breakout.
+A remake of the classic game Breakout.
