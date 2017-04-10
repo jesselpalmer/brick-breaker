@@ -1,0 +1,18 @@
+{
+  "name": "brick-breaker",
+  "version": "1.1.1",
+  "description": "HTML5 Canvas remake of the classic game Breakout",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mission-bay-games/brick-breaker.git"
+  },
+  "author": "Jesse Palmer <jesse@missionbaygames.com> (http://missionbaygames.com)",
+  "bugs": {
+    "url": "https://github.com/mission-bay-games/brick-breaker/issues"
+  },
+  "homepage": "https://github.com/mission-bay-games/brick-breaker#readme"
+}
