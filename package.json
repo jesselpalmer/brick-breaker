@@ -4,7 +4,8 @@
   "description": "A remake of the classic game Breakout",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next"
   },
   "repository": {
     "type": "git",
@@ -14,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/mission-bay-games/brick-breaker/issues"
   },
-  "homepage": "https://github.com/mission-bay-games/brick-breaker#readme"
+  "homepage": "https://github.com/mission-bay-games/brick-breaker#readme",
+  "dependencies": {
+    "next": "2.1.1",
+    "react": "15.5.4",
+    "react-dom": "15.5.4"
+  }
 }
