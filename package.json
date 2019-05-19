@@ -2,23 +2,17 @@
   "name": "brick-breaker",
   "version": "1.1.1",
   "description": "A remake of the classic game Breakout",
-  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mission-bay-games/brick-breaker.git"
+    "url": "git+https://github.com/jesselpalmer/brick-breaker.git"
   },
-  "author": "Jesse Palmer <jesse@missionbaygames.com> (http://missionbaygames.com)",
+  "author": "Jesse Palmer <jesselpalmer@gmail.com> (http://www.jesselpalmer.com)",
   "bugs": {
-    "url": "https://github.com/mission-bay-games/brick-breaker/issues"
+    "url": "https://github.com/jesselpalmer/brick-breaker/issues"
   },
-  "homepage": "https://github.com/mission-bay-games/brick-breaker#readme",
-  "dependencies": {
-    "next": "2.1.1",
-    "react": "15.5.4",
-    "react-dom": "15.5.4"
-  }
+  "homepage": "https://github.com/jesselpalmer/brick-breaker#readme"
 }
