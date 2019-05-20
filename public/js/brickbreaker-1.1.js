@@ -4,24 +4,11 @@
  */
 
 /**
- * Uses the Modernizr library to test if the broswer supports Canvas.
- * @return {boolean} Returns true if Canvas is supported by the broswer.
- */
-function canvasSupport() {
-    'use strict';
-    return Modernizr.canvas;
-}
-
-/**
 * The code for the application.
 *
 */
 function canvasApp() {
     'use strict';
-
-    if (!canvasSupport) {
-        return;
-    }
 
     var DELAY_TIME = 1,
         SCREEN_WIDTH = 633,
