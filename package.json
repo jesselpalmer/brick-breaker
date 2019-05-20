@@ -3,8 +3,11 @@
   "version": "1.1.1",
   "description": "A remake of the classic game Breakout",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next"
+    "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
+    "build": "node_modules/.bin/tsc",
+    "prestart": "npm run build",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -14,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/jesselpalmer/brick-breaker/issues"
   },
-  "homepage": "https://github.com/jesselpalmer/brick-breaker#readme"
+  "homepage": "https://github.com/jesselpalmer/brick-breaker#readme",
+  "devDependencies": {
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  }
 }
