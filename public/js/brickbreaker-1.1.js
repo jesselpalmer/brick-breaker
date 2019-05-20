@@ -567,4 +567,4 @@ function canvasApp() {
     runGame();
 }
 
-$(window).load(canvasApp);
+window.onload = canvasApp;
