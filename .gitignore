@@ -63,5 +63,8 @@ typings/
 # Mac OS files
 .DS_Store
 
+# Firebase directory
+.firebase
+
 # Next.js files
 .next
