@@ -323,13 +323,8 @@ function canvasApp() {
      * @return {array} color an array of colors.
      */
     function loadBrickColors() {
-        var red = '#ff0000',
-            orange = '#ff9900',
-            yellow = '#ffff00',
-            green = '#00ff00',
-            darkBlue = '#0000ff',
-            colors = [red, red, orange, orange, yellow, yellow, green,
-                green, darkBlue, darkBlue];
+        var colors = ['red', 'red', 'orange', 'orange', 'yellow', 'yellow', 'green',
+                'green', 'blue', 'blue'];
         return colors;
     }
 
