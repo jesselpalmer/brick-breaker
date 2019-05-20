@@ -368,7 +368,7 @@ function canvasApp() {
      * Initalizes the event listeners.
      */
     function initListeners() {
-        $(canvas).mousemove(movePaddle);
+        canvas.addEventListener('mousemove', movePaddle);
     }
 
     /**
@@ -446,14 +446,14 @@ function canvasApp() {
      */
     function startGame() {
         gameStatus = 'playing';
-        $(canvas).unbind('click', startGame);
+        canvas.removeEventListener('click', startGame);
     }
 
     /**
      * Draws the start screen.
      */
     function drawStartScreen() {
-        $(canvas).bind('click', startGame);
+        canvas.addEventListener('click', startGame);
         var x = SCREEN_WIDTH / 2,
             y = 175;
         context.textAlign = 'center';
@@ -512,9 +512,9 @@ function canvasApp() {
      * Draws the game over screen.
      */
     function gameOverScreen() {
-        $(canvas).bind('click', function() {
-            initGame();
-            startGame();
+        canvas.addEventListener('click', function() {
+          initGame();
+          startGame();
         });
         var x = SCREEN_WIDTH / 2,
             y = 175;
