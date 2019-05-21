@@ -154,7 +154,7 @@ function canvasApp() {
    * @return {boolean} Returns true if the window width is greater than the
    * screen width.
    */
-  function isWindowIsLargerThanScreen() {
+  function isWindowIsLargerThanScreen(): boolean {
       return (windowWidth > SCREEN_WIDTH);
   }
 
