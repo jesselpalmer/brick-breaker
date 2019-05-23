@@ -82,11 +82,11 @@ function canvasApp() {
 
   /**
    * Builds a rectangle of bricks.
-   * @param {Array<string>} colors is an array of colors.
+   * @param {string[]} colors is an array of colors.
    */
-  function drawRectangle(colors: Array<string>) {
-      let i = 0;
-      let j = 0;
+  function drawRectangle(colors: string[]) {
+      let i;
+      let j;
       let brickNum = 0;
       let brickY = BRICK_OFFSET;
       let brickX = 0;
@@ -112,9 +112,9 @@ function canvasApp() {
 
   /**
    * Builds a triangle of bricks.
-   * @param {array} colors is an array of colors.
+   * @param {string[]} colors is an array of colors.
    */
-  function drawTriangle(colors) {
+  function drawTriangle(colors: string[]) {
       let i = 0;
       let j = 0;
       let brickNum = 0;
@@ -307,9 +307,9 @@ function canvasApp() {
   /**
    * Loads the colors of the bricks into an array and then returns the
    * array.
-   * @return {Array<string>} color an array of colors.
+   * @return {string[]>} color an array of colors.
    */
-  function loadBrickColors(): Array<string> {
+  function loadBrickColors(): string[] {
       const colors = ['red', 'red', 'orange', 'orange', 'yellow', 'yellow', 'green',
               'green', 'blue', 'blue'];
       return colors;

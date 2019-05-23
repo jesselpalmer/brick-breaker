@@ -77,7 +77,7 @@ function canvasApp() {
     }
     /**
      * Builds a rectangle of bricks.
-     * @param {array} colors is an array of colors.
+     * @param {string[]} colors is an array of colors.
      */
     function drawRectangle(colors) {
         var i;
@@ -106,7 +106,7 @@ function canvasApp() {
     }
     /**
      * Builds a triangle of bricks.
-     * @param {array} colors is an array of colors.
+     * @param {string[]} colors is an array of colors.
      */
     function drawTriangle(colors) {
         var i = 0;
@@ -285,7 +285,7 @@ function canvasApp() {
     /**
      * Loads the colors of the bricks into an array and then returns the
      * array.
-     * @return {array} color an array of colors.
+     * @return {string[]>} color an array of colors.
      */
     function loadBrickColors() {
         var colors = ['red', 'red', 'orange', 'orange', 'yellow', 'yellow', 'green',
